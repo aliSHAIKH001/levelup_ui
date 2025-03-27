@@ -35,7 +35,8 @@ const About = () => {
                     Welcome To Zentry
                 </h2>
 
-                <AnimatedTitle/>
+                <AnimatedTitle title="Disc<b>o</b>ver The World's <br/> L<b>a</b>rgest Shared Adventure"
+                containerClass="mt-5 !text-black text-center"/>
 
                 <div className='about-subtext'>
                     <p>The Game of Games begins-your life, now an epic MMORPG</p>
@@ -49,7 +50,7 @@ const About = () => {
                     <img
                         src='img/about.webp'
                         alt="Background"
-                        className="absolute left-0 top-0 size-full object-cover"
+                        className="absolute left-0 top-0 size-full object-cover "
                     />
                 </div>
             </div>
